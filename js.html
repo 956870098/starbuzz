@@ -7,6 +7,7 @@
   <title>Document</title>
 </head>
 <body>
+  <p id='amao'>我是一段文字</p>
   <script>
   document.write("<h1> hello world !</h1>")
   var a =10 
@@ -14,10 +15,18 @@
   document.write(a+b)
   document.write('<br>')
   var i =0
-  while(i<=1000){
+  while(i<=10){
     document.write(i+ '<br>')
     i++
   }
+  document.write('<br>')
+  var x =20;
+  if(x >20){ //if x>20 then
+    document.write('x是一个大于20的数')
+  }else{
+    document.write('x是小于等于20的数')
+  }
+  document.getElementById('amao').innerHTML='我才是被显示的文字'
   </script>
 </body>
 </html>
