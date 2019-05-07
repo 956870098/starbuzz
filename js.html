@@ -50,8 +50,30 @@
   document.write('<br>'+Math.random())
   document.write('<br>'+Math.random())
   document.write('<br>'+Math.random())
-  document.write('<br>'+Math.floor(math.random()*10))
-  document.getElementById('amao').innerHTML='我才是被显示的文字'
+  function gj(weight){
+    if (weight >=15){
+      return ('汪汪')
+    }else{
+      return ('呜呜')
+    }
+  }
+  document.write('旺财'+ gj (22)+'叫')
+  document.write('<br>')
+  function gj2 (xm,tz){
+    if (tz>=15){
+      document.write(xm+'汪汪叫')
+    }else{
+      document.write(xm + '呜呜叫')
+    }
+  }
+  gj2('旺财','22')
+  document.write('<br>')
+  gj2('来福','10')
+  document.write("<br>")
+  var arr=[1,2,5,8,9]
+  for(var i=0;i<arr.length;i++){
+    document.write("元素:"+arr[i]+"<br>")
+  }
   </script>
 </body>
 </html>
