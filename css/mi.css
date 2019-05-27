@@ -1,0 +1,26 @@
+.topbar-info a{
+	padding: 0 5px;
+}
+.topbar-info .sep{
+	padding: 0px;
+}
+.message{
+	padding: 0 10px;
+}
+.iconfont{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+	background-image: url(../image/login-shop.png);
+	background-size: 16px 16px;
+	line-height: 20px;
+    vertical-align: -4px;
+}
+.logo{
+	background-image: url(../image/logo-footer.png);
+	background-size: 55px 55
+}
+.category-item i{
+	background-image: url(../image/logo-arrow.png);
+}
